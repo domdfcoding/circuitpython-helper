@@ -35,12 +35,12 @@ Implementation Notes
 #
 
 # stdlib
-import board
-import busio
+import board  # type: ignore
+import busio  # type: ignore
 import time
 
 # 3rd party
-import adafruit_ds3231
+import adafruit_ds3231  # type: ignore
 
 # Set up communication with the RTC
 i2c = busio.I2C(board.GP1, board.GP0)

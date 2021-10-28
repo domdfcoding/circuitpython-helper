@@ -30,7 +30,7 @@ Communicate with the microcontroller and set the time of its connected RTC.
 import time
 
 # 3rd party
-import serial
+import serial  # type: ignore
 
 ser = serial.Serial("/dev/ttyACM1", baudrate=9600, timeout=1)
 
