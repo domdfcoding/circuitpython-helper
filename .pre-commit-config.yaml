@@ -8,7 +8,7 @@ ci:
 
 repos:
  - repo: https://github.com/pre-commit/pre-commit-hooks
-   rev: v3.4.0
+   rev: v6.0.0
    hooks:
     - id: check-added-large-files
     - id: check-ast
@@ -27,7 +27,7 @@ repos:
     - id: end-of-file-fixer
 
  - repo: https://github.com/domdfcoding/pre-commit-hooks
-   rev: v0.6.0
+   rev: v0.7.0
    hooks:
     - id: requirements-txt-sorter
       args:
@@ -50,13 +50,13 @@ repos:
     - id: rst-inline-touching-normal
 
  - repo: https://github.com/Lucas-C/pre-commit-hooks
-   rev: v1.5.1
+   rev: v1.5.6
    hooks:
     - id: remove-crlf
     - id: forbid-crlf
 
  - repo: https://github.com/python-formate/formate
-   rev: v1.2.0
+   rev: v1.2.1
    hooks:
     - id: formate
       additional_dependencies:
